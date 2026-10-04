@@ -1,0 +1,17 @@
+[
+  {
+    "cluster_id": "K1",
+    "note": "Allowed by manager",
+    "ruling": "ALLOW"
+  },
+  {
+    "cluster_id": "K2",
+    "note": "Strict policy",
+    "ruling": "DENY"
+  },
+  {
+    "cluster_id": "K3",
+    "note": "Escalate to legal",
+    "ruling": "ESCALATE"
+  }
+]

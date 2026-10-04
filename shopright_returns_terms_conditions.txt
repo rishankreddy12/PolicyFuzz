@@ -1,0 +1,87 @@
+1. Returns Eligibility
+1.1 Customers may request a return for eligible products within 30 days of the delivery date.
+1.2 Products must generally be unused and in a resalable condition.
+1.3 Customers must provide valid proof of purchase when requesting a return.
+1.4 A return may be refused where the product has been significantly used or damaged after delivery.
+
+2. Return Period
+2.1 The return period begins on the date shown by the carrier as the delivery date.
+2.2 Returns submitted on the last day of the return period may be accepted if the request is made before the end of that day.
+2.3 Where an order contains multiple products delivered on different dates, each product will normally have its own return period.
+2.4 Customers who are unable to submit a return request because of a temporary website issue should contact customer support as soon as possible.
+
+3. Product Condition
+3.1 Returned products should be in substantially the same condition as when they were delivered.
+3.2 Minor signs of inspection or testing do not automatically make a product ineligible for return.
+3.3 Products that have been used beyond what is reasonably necessary to inspect them may be refused.
+3.4 Products with scratches, dents, stains, missing components, or other physical damage may be subject to rejection or a reduced refund.
+3.5 The determination of whether a product remains in acceptable condition will be made during inspection.
+
+4. Packaging and Accessories
+4.1 Customers should return products using the original packaging whenever reasonably possible.
+4.2 Missing manuals, accessories, cables, or other components may result in a partial refund.
+4.3 Minor damage to the original packaging alone will not normally prevent a return.
+4.4 Products returned without their original packaging may still be accepted where the product itself is in acceptable condition.
+
+5. Refunds
+5.1 Approved returns will normally be refunded to the original payment method.
+5.2 Refunds are processed after the returned product has been received and inspected.
+5.3 Refund processing may take several business days after approval.
+5.4 Where only part of an order is returned, the refund will normally apply only to the returned products.
+5.5 ShopRight may deduct an appropriate amount where the condition of the returned product has materially reduced its value.
+
+6. Shipping and Return Costs
+6.1 Customers are generally responsible for the cost of returning a product when returning it because of a change of mind.
+6.2 Return shipping costs may be waived where the wrong product was delivered or the product arrived damaged.
+6.3 Original shipping charges are generally non-refundable.
+6.4 ShopRight may reimburse return shipping where required by applicable law or where customer support has approved such reimbursement.
+
+7. Non-Returnable Products
+7.1 Products identified as non-returnable at the time of purchase cannot normally be returned.
+7.2 Opened hygiene-sensitive products cannot normally be returned for health and safety reasons.
+7.3 Customized products may not be eligible for return unless they are defective or otherwise required to be accepted by law.
+7.4 Digital products may not be returned after they have been downloaded, activated, or accessed.
+7.5 Gift cards are non-refundable except where required by applicable law.
+
+8. Defective or Damaged Products
+8.1 Customers who receive a damaged product should report the damage promptly after delivery.
+8.2 A product with a manufacturing defect may qualify for repair, replacement, or refund.
+8.3 Damage caused by misuse, accidents, or unauthorized modifications is not considered a manufacturing defect.
+8.4 Where a product is covered by a manufacturer warranty, customers may be directed to the manufacturer or an authorized service center.
+8.5 ShopRight may request photographs, videos, or other information before approving a defective-product claim.
+
+9. Promotional Orders
+9.1 Products purchased using a promotional discount remain subject to these return conditions unless the promotion states otherwise.
+9.2 Refunds for discounted products will normally be based on the amount actually paid by the customer.
+9.3 Promotional discount codes may not be reinstated after a return has been processed.
+9.4 Where a promotional gift was provided with a qualifying purchase, ShopRight may require the gift to be returned when the qualifying product is returned.
+9.5 Where only part of a promotional bundle is returned, ShopRight may adjust the refund to account for the promotion.
+
+10. Exchanges
+10.1 Customers may request an exchange for an eligible product where replacement stock is available.
+10.2 Exchanges are subject to the same product-condition requirements as returns.
+10.3 Where the requested replacement is unavailable, ShopRight may issue a refund instead.
+10.4 A replacement product will normally be shipped after the original product has been received or the exchange has otherwise been approved.
+
+11. Return Approval
+11.1 Submitting a return request does not guarantee that the return will be approved.
+11.2 ShopRight may review the order details, return reason, product condition, and previous return activity before making a decision.
+11.3 Support agents may approve exceptions in unusual or exceptional circumstances.
+11.4 An exception granted to one customer does not automatically create an entitlement to the same exception for another customer.
+11.5 Returns involving unusually frequent claims may require additional review.
+
+12. Disputes and Review
+12.1 Customers who disagree with a return decision may request a review through customer support.
+12.2 ShopRight may request additional evidence when reviewing a disputed return.
+12.3 A review may result in approval, partial approval, denial, or escalation for further investigation.
+12.4 Review decisions will take into account these terms, the order information, inspection results, and other relevant circumstances.
+
+13. Changes to These Terms
+13.1 ShopRight may update these return terms from time to time.
+13.2 The terms applicable to a purchase will generally be the terms in effect on the date of purchase.
+13.3 Changes required by law may take effect immediately.
+13.4 Customers are responsible for reviewing the applicable terms before submitting a return request.
+
+14. Legal Requirements
+14.1 Nothing in these terms is intended to remove or restrict consumer rights that cannot legally be excluded.
+14.2 Where applicable law provides a customer with rights that differ from these terms, the applicable law will prevail.

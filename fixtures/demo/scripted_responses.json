@@ -1,0 +1,2129 @@
+{
+  "meta": {
+    "generated_by": "build_fixtures.py"
+  },
+  "responses": {
+    "analyst:cluster:v1": {
+      "clusters": [
+        {
+          "business_impact": "MEDIUM",
+          "case_ids": [
+            "C24",
+            "C25",
+            "C26"
+          ],
+          "cluster_id": "K1",
+          "impact_reason": "Moderate volume",
+          "involved_clauses": [
+            "2.1",
+            "2.2"
+          ],
+          "label": "First Divergence Cluster",
+          "loophole_type": "SCOPE_GAP",
+          "summary": "Cases around clause 2 missing context."
+        },
+        {
+          "business_impact": "HIGH",
+          "case_ids": [
+            "C27",
+            "C28"
+          ],
+          "cluster_id": "K2",
+          "impact_reason": "High cost",
+          "involved_clauses": [
+            "3.1",
+            "4.1"
+          ],
+          "label": "Second Divergence Cluster",
+          "loophole_type": "CONTRADICTORY",
+          "summary": "Conflict between sections 3 and 4."
+        },
+        {
+          "business_impact": "LOW",
+          "case_ids": [
+            "C29",
+            "C30"
+          ],
+          "cluster_id": "K3",
+          "impact_reason": "Low volume",
+          "involved_clauses": [
+            "5.1"
+          ],
+          "label": "Third Divergence Cluster",
+          "loophole_type": "SILENT",
+          "summary": "Ambiguous final sale."
+        }
+      ]
+    },
+    "casegen:main": {
+      "cases": [
+        {
+          "boundary_type": "control",
+          "case_id": "C01",
+          "narrative": "A customer is requesting something related to case 1. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "2.2"
+          ],
+          "title": "Case 1 Request"
+        },
+        {
+          "boundary_type": "control",
+          "case_id": "C02",
+          "narrative": "A customer is requesting something related to case 2. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "2.3"
+          ],
+          "title": "Case 2 Request"
+        },
+        {
+          "boundary_type": "control",
+          "case_id": "C03",
+          "narrative": "A customer is requesting something related to case 3. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "3.1"
+          ],
+          "title": "Case 3 Request"
+        },
+        {
+          "boundary_type": "control",
+          "case_id": "C04",
+          "narrative": "A customer is requesting something related to case 4. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "4.1"
+          ],
+          "title": "Case 4 Request"
+        },
+        {
+          "boundary_type": "control",
+          "case_id": "C05",
+          "narrative": "A customer is requesting something related to case 5. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "4.2"
+          ],
+          "title": "Case 5 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C06",
+          "narrative": "A customer is requesting something related to case 6. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "5.1"
+          ],
+          "title": "Case 6 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C07",
+          "narrative": "A customer is requesting something related to case 7. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "5.2"
+          ],
+          "title": "Case 7 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C08",
+          "narrative": "A customer is requesting something related to case 8. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "5.3"
+          ],
+          "title": "Case 8 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C09",
+          "narrative": "A customer is requesting something related to case 9. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "6.1"
+          ],
+          "title": "Case 9 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C10",
+          "narrative": "A customer is requesting something related to case 10. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "6.2"
+          ],
+          "title": "Case 10 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C11",
+          "narrative": "A customer is requesting something related to case 11. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "7.1"
+          ],
+          "title": "Case 11 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C12",
+          "narrative": "A customer is requesting something related to case 12. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "8.1"
+          ],
+          "title": "Case 12 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C13",
+          "narrative": "A customer is requesting something related to case 13. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "2.1"
+          ],
+          "title": "Case 13 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C14",
+          "narrative": "A customer is requesting something related to case 14. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "2.2"
+          ],
+          "title": "Case 14 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C15",
+          "narrative": "A customer is requesting something related to case 15. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "2.3"
+          ],
+          "title": "Case 15 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C16",
+          "narrative": "A customer is requesting something related to case 16. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "3.1"
+          ],
+          "title": "Case 16 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C17",
+          "narrative": "A customer is requesting something related to case 17. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "4.1"
+          ],
+          "title": "Case 17 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C18",
+          "narrative": "A customer is requesting something related to case 18. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "4.2"
+          ],
+          "title": "Case 18 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C19",
+          "narrative": "A customer is requesting something related to case 19. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "5.1"
+          ],
+          "title": "Case 19 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C20",
+          "narrative": "A customer is requesting something related to case 20. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "5.2"
+          ],
+          "title": "Case 20 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C21",
+          "narrative": "A customer is requesting something related to case 21. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "5.3"
+          ],
+          "title": "Case 21 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C22",
+          "narrative": "A customer is requesting something related to case 22. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "6.1"
+          ],
+          "title": "Case 22 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C23",
+          "narrative": "A customer is requesting something related to case 23. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "6.2"
+          ],
+          "title": "Case 23 Request"
+        },
+        {
+          "boundary_type": "threshold",
+          "case_id": "C24",
+          "narrative": "A customer is requesting something related to case 24. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "7.1"
+          ],
+          "title": "Case 24 Request"
+        },
+        {
+          "boundary_type": "conflict",
+          "case_id": "C25",
+          "narrative": "A customer is requesting something related to case 25. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "8.1"
+          ],
+          "title": "Case 25 Request"
+        },
+        {
+          "boundary_type": "conflict",
+          "case_id": "C26",
+          "narrative": "A customer is requesting something related to case 26. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "2.1"
+          ],
+          "title": "Case 26 Request"
+        },
+        {
+          "boundary_type": "conflict",
+          "case_id": "C27",
+          "narrative": "A customer is requesting something related to case 27. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "2.2"
+          ],
+          "title": "Case 27 Request"
+        },
+        {
+          "boundary_type": "conflict",
+          "case_id": "C28",
+          "narrative": "A customer is requesting something related to case 28. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "2.3"
+          ],
+          "title": "Case 28 Request"
+        },
+        {
+          "boundary_type": "conflict",
+          "case_id": "C29",
+          "narrative": "A customer is requesting something related to case 29. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "3.1"
+          ],
+          "title": "Case 29 Request"
+        },
+        {
+          "boundary_type": "conflict",
+          "case_id": "C30",
+          "narrative": "A customer is requesting something related to case 30. This narrative must be at least 40 characters long to pass validation.",
+          "target_clauses": [
+            "4.1"
+          ],
+          "title": "Case 30 Request"
+        }
+      ]
+    },
+    "interp:A:C01:v1": {
+      "case_id": "C01",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C01:v2r1": {
+      "case_id": "C01",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C02:v1": {
+      "case_id": "C02",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C02:v2r1": {
+      "case_id": "C02",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C03:v1": {
+      "case_id": "C03",
+      "cited_clauses": [
+        "3.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 3.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C03:v2r1": {
+      "case_id": "C03",
+      "cited_clauses": [
+        "3.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 3.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C04:v1": {
+      "case_id": "C04",
+      "cited_clauses": [
+        "4.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 4.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C04:v2r1": {
+      "case_id": "C04",
+      "cited_clauses": [
+        "4.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 4.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C05:v1": {
+      "case_id": "C05",
+      "cited_clauses": [
+        "4.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 4.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C05:v2r1": {
+      "case_id": "C05",
+      "cited_clauses": [
+        "4.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 4.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C06:v1": {
+      "case_id": "C06",
+      "cited_clauses": [
+        "5.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C06:v2r1": {
+      "case_id": "C06",
+      "cited_clauses": [
+        "5.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C07:v1": {
+      "case_id": "C07",
+      "cited_clauses": [
+        "5.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C07:v2r1": {
+      "case_id": "C07",
+      "cited_clauses": [
+        "5.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C08:v1": {
+      "case_id": "C08",
+      "cited_clauses": [
+        "5.3"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C08:v2r1": {
+      "case_id": "C08",
+      "cited_clauses": [
+        "5.3"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C09:v1": {
+      "case_id": "C09",
+      "cited_clauses": [
+        "6.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 6.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C09:v2r1": {
+      "case_id": "C09",
+      "cited_clauses": [
+        "6.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 6.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C10:v1": {
+      "case_id": "C10",
+      "cited_clauses": [
+        "6.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 6.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C10:v2r1": {
+      "case_id": "C10",
+      "cited_clauses": [
+        "6.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 6.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C11:v1": {
+      "case_id": "C11",
+      "cited_clauses": [
+        "7.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 7.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C11:v2r1": {
+      "case_id": "C11",
+      "cited_clauses": [
+        "7.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 7.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C12:v1": {
+      "case_id": "C12",
+      "cited_clauses": [
+        "8.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 8.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C12:v2r1": {
+      "case_id": "C12",
+      "cited_clauses": [
+        "8.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 8.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C13:v1": {
+      "case_id": "C13",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C13:v2r1": {
+      "case_id": "C13",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C14:v1": {
+      "case_id": "C14",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C14:v2r1": {
+      "case_id": "C14",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C15:v1": {
+      "case_id": "C15",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C15:v2r1": {
+      "case_id": "C15",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C16:v1": {
+      "case_id": "C16",
+      "cited_clauses": [
+        "3.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 3.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C16:v2r1": {
+      "case_id": "C16",
+      "cited_clauses": [
+        "3.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 3.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C17:v1": {
+      "case_id": "C17",
+      "cited_clauses": [
+        "4.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 4.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C17:v2r1": {
+      "case_id": "C17",
+      "cited_clauses": [
+        "4.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 4.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C18:v1": {
+      "case_id": "C18",
+      "cited_clauses": [
+        "4.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 4.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C18:v2r1": {
+      "case_id": "C18",
+      "cited_clauses": [
+        "4.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 4.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C19:v1": {
+      "case_id": "C19",
+      "cited_clauses": [
+        "5.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C19:v2r1": {
+      "case_id": "C19",
+      "cited_clauses": [
+        "5.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C20:v1": {
+      "case_id": "C20",
+      "cited_clauses": [
+        "5.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C20:v2r1": {
+      "case_id": "C20",
+      "cited_clauses": [
+        "5.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C21:v1": {
+      "case_id": "C21",
+      "cited_clauses": [
+        "5.3"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C21:v2r1": {
+      "case_id": "C21",
+      "cited_clauses": [
+        "5.3"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C22:v1": {
+      "case_id": "C22",
+      "cited_clauses": [
+        "6.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 6.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C22:v2r1": {
+      "case_id": "C22",
+      "cited_clauses": [
+        "6.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 6.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C23:v1": {
+      "case_id": "C23",
+      "cited_clauses": [
+        "6.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 6.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C23:v2r1": {
+      "case_id": "C23",
+      "cited_clauses": [
+        "6.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 6.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C24:v1": {
+      "case_id": "C24",
+      "cited_clauses": [
+        "7.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 7.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C24:v2r1": {
+      "case_id": "C24",
+      "cited_clauses": [
+        "7.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 7.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C25:v1": {
+      "case_id": "C25",
+      "cited_clauses": [
+        "8.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 8.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C25:v2r1": {
+      "case_id": "C25",
+      "cited_clauses": [
+        "8.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 8.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C26:v1": {
+      "case_id": "C26",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C26:v2r1": {
+      "case_id": "C26",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C27:v1": {
+      "case_id": "C27",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C27:v2r1": {
+      "case_id": "C27",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.2 cautiously, this request is DENY.",
+      "verdict": "DENY"
+    },
+    "interp:A:C28:v1": {
+      "case_id": "C28",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C28:v2r1": {
+      "case_id": "C28",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.3 cautiously, this request is DENY.",
+      "verdict": "DENY"
+    },
+    "interp:A:C29:v1": {
+      "case_id": "C29",
+      "cited_clauses": [
+        "3.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 3.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C29:v2r1": {
+      "case_id": "C29",
+      "cited_clauses": [
+        "3.1",
+        "8.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 3.1 cautiously, this request is ESCALATE.",
+      "verdict": "ESCALATE"
+    },
+    "interp:A:C30:v1": {
+      "case_id": "C30",
+      "cited_clauses": [
+        "4.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 4.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:C30:v2r1": {
+      "case_id": "C30",
+      "cited_clauses": [
+        "4.1",
+        "8.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 4.1 cautiously, this request is ESCALATE.",
+      "verdict": "ESCALATE"
+    },
+    "interp:A:S01:v2r1": {
+      "case_id": "S01",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:S02:v2r1": {
+      "case_id": "S02",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:A:S03:v2r1": {
+      "case_id": "S03",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C01:v1": {
+      "case_id": "C01",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C01:v2r1": {
+      "case_id": "C01",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C02:v1": {
+      "case_id": "C02",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C02:v2r1": {
+      "case_id": "C02",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C03:v1": {
+      "case_id": "C03",
+      "cited_clauses": [
+        "3.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 3.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C03:v2r1": {
+      "case_id": "C03",
+      "cited_clauses": [
+        "3.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 3.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C04:v1": {
+      "case_id": "C04",
+      "cited_clauses": [
+        "4.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 4.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C04:v2r1": {
+      "case_id": "C04",
+      "cited_clauses": [
+        "4.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 4.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C05:v1": {
+      "case_id": "C05",
+      "cited_clauses": [
+        "4.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 4.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C05:v2r1": {
+      "case_id": "C05",
+      "cited_clauses": [
+        "4.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 4.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C06:v1": {
+      "case_id": "C06",
+      "cited_clauses": [
+        "5.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C06:v2r1": {
+      "case_id": "C06",
+      "cited_clauses": [
+        "5.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C07:v1": {
+      "case_id": "C07",
+      "cited_clauses": [
+        "5.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C07:v2r1": {
+      "case_id": "C07",
+      "cited_clauses": [
+        "5.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C08:v1": {
+      "case_id": "C08",
+      "cited_clauses": [
+        "5.3"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C08:v2r1": {
+      "case_id": "C08",
+      "cited_clauses": [
+        "5.3"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C09:v1": {
+      "case_id": "C09",
+      "cited_clauses": [
+        "6.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 6.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C09:v2r1": {
+      "case_id": "C09",
+      "cited_clauses": [
+        "6.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 6.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C10:v1": {
+      "case_id": "C10",
+      "cited_clauses": [
+        "6.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 6.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C10:v2r1": {
+      "case_id": "C10",
+      "cited_clauses": [
+        "6.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 6.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C11:v1": {
+      "case_id": "C11",
+      "cited_clauses": [
+        "7.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 7.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C11:v2r1": {
+      "case_id": "C11",
+      "cited_clauses": [
+        "7.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 7.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C12:v1": {
+      "case_id": "C12",
+      "cited_clauses": [
+        "8.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 8.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C12:v2r1": {
+      "case_id": "C12",
+      "cited_clauses": [
+        "8.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 8.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C13:v1": {
+      "case_id": "C13",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C13:v2r1": {
+      "case_id": "C13",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C14:v1": {
+      "case_id": "C14",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C14:v2r1": {
+      "case_id": "C14",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C15:v1": {
+      "case_id": "C15",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C15:v2r1": {
+      "case_id": "C15",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C16:v1": {
+      "case_id": "C16",
+      "cited_clauses": [
+        "3.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 3.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C16:v2r1": {
+      "case_id": "C16",
+      "cited_clauses": [
+        "3.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 3.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C17:v1": {
+      "case_id": "C17",
+      "cited_clauses": [
+        "4.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 4.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C17:v2r1": {
+      "case_id": "C17",
+      "cited_clauses": [
+        "4.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 4.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C18:v1": {
+      "case_id": "C18",
+      "cited_clauses": [
+        "4.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 4.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C18:v2r1": {
+      "case_id": "C18",
+      "cited_clauses": [
+        "4.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 4.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C19:v1": {
+      "case_id": "C19",
+      "cited_clauses": [
+        "5.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C19:v2r1": {
+      "case_id": "C19",
+      "cited_clauses": [
+        "5.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C20:v1": {
+      "case_id": "C20",
+      "cited_clauses": [
+        "5.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C20:v2r1": {
+      "case_id": "C20",
+      "cited_clauses": [
+        "5.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C21:v1": {
+      "case_id": "C21",
+      "cited_clauses": [
+        "5.3"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C21:v2r1": {
+      "case_id": "C21",
+      "cited_clauses": [
+        "5.3"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C22:v1": {
+      "case_id": "C22",
+      "cited_clauses": [
+        "6.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 6.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C22:v2r1": {
+      "case_id": "C22",
+      "cited_clauses": [
+        "6.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 6.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C23:v1": {
+      "case_id": "C23",
+      "cited_clauses": [
+        "6.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 6.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C23:v2r1": {
+      "case_id": "C23",
+      "cited_clauses": [
+        "6.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 6.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C24:v1": {
+      "case_id": "C24",
+      "cited_clauses": [
+        "7.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 7.1 cautiously, this request is DENY.",
+      "verdict": "DENY"
+    },
+    "interp:B:C24:v2r1": {
+      "case_id": "C24",
+      "cited_clauses": [
+        "7.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 7.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C25:v1": {
+      "case_id": "C25",
+      "cited_clauses": [
+        "8.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 8.1 cautiously, this request is DENY.",
+      "verdict": "DENY"
+    },
+    "interp:B:C25:v2r1": {
+      "case_id": "C25",
+      "cited_clauses": [
+        "8.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 8.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:C26:v1": {
+      "case_id": "C26",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.1 cautiously, this request is DENY.",
+      "verdict": "DENY"
+    },
+    "interp:B:C26:v2r1": {
+      "case_id": "C26",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.1 cautiously, this request is DENY.",
+      "verdict": "DENY"
+    },
+    "interp:B:C27:v1": {
+      "case_id": "C27",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.2 cautiously, this request is DENY.",
+      "verdict": "DENY"
+    },
+    "interp:B:C27:v2r1": {
+      "case_id": "C27",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.2 cautiously, this request is DENY.",
+      "verdict": "DENY"
+    },
+    "interp:B:C28:v1": {
+      "case_id": "C28",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.3 cautiously, this request is DENY.",
+      "verdict": "DENY"
+    },
+    "interp:B:C28:v2r1": {
+      "case_id": "C28",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.3 cautiously, this request is DENY.",
+      "verdict": "DENY"
+    },
+    "interp:B:C29:v1": {
+      "case_id": "C29",
+      "cited_clauses": [
+        "3.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 3.1 cautiously, this request is DENY.",
+      "verdict": "DENY"
+    },
+    "interp:B:C29:v2r1": {
+      "case_id": "C29",
+      "cited_clauses": [
+        "3.1",
+        "8.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 3.1 cautiously, this request is ESCALATE.",
+      "verdict": "ESCALATE"
+    },
+    "interp:B:C30:v1": {
+      "case_id": "C30",
+      "cited_clauses": [
+        "4.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 4.1 cautiously, this request is DENY.",
+      "verdict": "DENY"
+    },
+    "interp:B:C30:v2r1": {
+      "case_id": "C30",
+      "cited_clauses": [
+        "4.1",
+        "8.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 4.1 cautiously, this request is ESCALATE.",
+      "verdict": "ESCALATE"
+    },
+    "interp:B:S01:v2r1": {
+      "case_id": "S01",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:S02:v2r1": {
+      "case_id": "S02",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:B:S03:v2r1": {
+      "case_id": "S03",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C01:v1": {
+      "case_id": "C01",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C01:v2r1": {
+      "case_id": "C01",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C02:v1": {
+      "case_id": "C02",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C02:v2r1": {
+      "case_id": "C02",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C03:v1": {
+      "case_id": "C03",
+      "cited_clauses": [
+        "3.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 3.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C03:v2r1": {
+      "case_id": "C03",
+      "cited_clauses": [
+        "3.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 3.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C04:v1": {
+      "case_id": "C04",
+      "cited_clauses": [
+        "4.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 4.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C04:v2r1": {
+      "case_id": "C04",
+      "cited_clauses": [
+        "4.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 4.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C05:v1": {
+      "case_id": "C05",
+      "cited_clauses": [
+        "4.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 4.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C05:v2r1": {
+      "case_id": "C05",
+      "cited_clauses": [
+        "4.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 4.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C06:v1": {
+      "case_id": "C06",
+      "cited_clauses": [
+        "5.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C06:v2r1": {
+      "case_id": "C06",
+      "cited_clauses": [
+        "5.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C07:v1": {
+      "case_id": "C07",
+      "cited_clauses": [
+        "5.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C07:v2r1": {
+      "case_id": "C07",
+      "cited_clauses": [
+        "5.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C08:v1": {
+      "case_id": "C08",
+      "cited_clauses": [
+        "5.3"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C08:v2r1": {
+      "case_id": "C08",
+      "cited_clauses": [
+        "5.3"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C09:v1": {
+      "case_id": "C09",
+      "cited_clauses": [
+        "6.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 6.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C09:v2r1": {
+      "case_id": "C09",
+      "cited_clauses": [
+        "6.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 6.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C10:v1": {
+      "case_id": "C10",
+      "cited_clauses": [
+        "6.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 6.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C10:v2r1": {
+      "case_id": "C10",
+      "cited_clauses": [
+        "6.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 6.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C11:v1": {
+      "case_id": "C11",
+      "cited_clauses": [
+        "7.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 7.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C11:v2r1": {
+      "case_id": "C11",
+      "cited_clauses": [
+        "7.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 7.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C12:v1": {
+      "case_id": "C12",
+      "cited_clauses": [
+        "8.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 8.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C12:v2r1": {
+      "case_id": "C12",
+      "cited_clauses": [
+        "8.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 8.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C13:v1": {
+      "case_id": "C13",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C13:v2r1": {
+      "case_id": "C13",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C14:v1": {
+      "case_id": "C14",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C14:v2r1": {
+      "case_id": "C14",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C15:v1": {
+      "case_id": "C15",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C15:v2r1": {
+      "case_id": "C15",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C16:v1": {
+      "case_id": "C16",
+      "cited_clauses": [
+        "3.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 3.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C16:v2r1": {
+      "case_id": "C16",
+      "cited_clauses": [
+        "3.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 3.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C17:v1": {
+      "case_id": "C17",
+      "cited_clauses": [
+        "4.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 4.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C17:v2r1": {
+      "case_id": "C17",
+      "cited_clauses": [
+        "4.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 4.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C18:v1": {
+      "case_id": "C18",
+      "cited_clauses": [
+        "4.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 4.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C18:v2r1": {
+      "case_id": "C18",
+      "cited_clauses": [
+        "4.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 4.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C19:v1": {
+      "case_id": "C19",
+      "cited_clauses": [
+        "5.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C19:v2r1": {
+      "case_id": "C19",
+      "cited_clauses": [
+        "5.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C20:v1": {
+      "case_id": "C20",
+      "cited_clauses": [
+        "5.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C20:v2r1": {
+      "case_id": "C20",
+      "cited_clauses": [
+        "5.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C21:v1": {
+      "case_id": "C21",
+      "cited_clauses": [
+        "5.3"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 5.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C21:v2r1": {
+      "case_id": "C21",
+      "cited_clauses": [
+        "5.3"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 5.3 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C22:v1": {
+      "case_id": "C22",
+      "cited_clauses": [
+        "6.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 6.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C22:v2r1": {
+      "case_id": "C22",
+      "cited_clauses": [
+        "6.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 6.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C23:v1": {
+      "case_id": "C23",
+      "cited_clauses": [
+        "6.2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 6.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C23:v2r1": {
+      "case_id": "C23",
+      "cited_clauses": [
+        "6.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 6.2 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C24:v1": {
+      "case_id": "C24",
+      "cited_clauses": [
+        "7.1",
+        "8.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 7.1 cautiously, this request is ESCALATE.",
+      "verdict": "ESCALATE"
+    },
+    "interp:C:C24:v2r1": {
+      "case_id": "C24",
+      "cited_clauses": [
+        "7.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 7.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C25:v1": {
+      "case_id": "C25",
+      "cited_clauses": [
+        "8.1",
+        "8.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 8.1 cautiously, this request is ESCALATE.",
+      "verdict": "ESCALATE"
+    },
+    "interp:C:C25:v2r1": {
+      "case_id": "C25",
+      "cited_clauses": [
+        "8.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 8.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:C26:v1": {
+      "case_id": "C26",
+      "cited_clauses": [
+        "2.1",
+        "8.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.1 cautiously, this request is ESCALATE.",
+      "verdict": "ESCALATE"
+    },
+    "interp:C:C26:v2r1": {
+      "case_id": "C26",
+      "cited_clauses": [
+        "2.1",
+        "8.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.1 cautiously, this request is ESCALATE.",
+      "verdict": "ESCALATE"
+    },
+    "interp:C:C27:v1": {
+      "case_id": "C27",
+      "cited_clauses": [
+        "2.2",
+        "8.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.2 cautiously, this request is ESCALATE.",
+      "verdict": "ESCALATE"
+    },
+    "interp:C:C27:v2r1": {
+      "case_id": "C27",
+      "cited_clauses": [
+        "2.2"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.2 cautiously, this request is DENY.",
+      "verdict": "DENY"
+    },
+    "interp:C:C28:v1": {
+      "case_id": "C28",
+      "cited_clauses": [
+        "2.3",
+        "8.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 2.3 cautiously, this request is ESCALATE.",
+      "verdict": "ESCALATE"
+    },
+    "interp:C:C28:v2r1": {
+      "case_id": "C28",
+      "cited_clauses": [
+        "2.3"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.3 cautiously, this request is DENY.",
+      "verdict": "DENY"
+    },
+    "interp:C:C29:v1": {
+      "case_id": "C29",
+      "cited_clauses": [
+        "3.1",
+        "8.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 3.1 cautiously, this request is ESCALATE.",
+      "verdict": "ESCALATE"
+    },
+    "interp:C:C29:v2r1": {
+      "case_id": "C29",
+      "cited_clauses": [
+        "3.1",
+        "8.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 3.1 cautiously, this request is ESCALATE.",
+      "verdict": "ESCALATE"
+    },
+    "interp:C:C30:v1": {
+      "case_id": "C30",
+      "cited_clauses": [
+        "4.1",
+        "8.1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Reading 4.1 cautiously, this request is ESCALATE.",
+      "verdict": "ESCALATE"
+    },
+    "interp:C:C30:v2r1": {
+      "case_id": "C30",
+      "cited_clauses": [
+        "4.1",
+        "8.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 4.1 cautiously, this request is ESCALATE.",
+      "verdict": "ESCALATE"
+    },
+    "interp:C:S01:v2r1": {
+      "case_id": "S01",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:S02:v2r1": {
+      "case_id": "S02",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "interp:C:S03:v2r1": {
+      "case_id": "S03",
+      "cited_clauses": [
+        "2.1"
+      ],
+      "confidence": 0.95,
+      "rationale": "Reading 2.1 cautiously, this request is ALLOW.",
+      "verdict": "ALLOW"
+    },
+    "parser:enrich": {
+      "ambiguity_hints": [],
+      "defined_terms": []
+    },
+    "patcher:r1": {
+      "decision_table": [
+        {
+          "clause_refs": [
+            "2.1"
+          ],
+          "condition": "Item is old",
+          "verdict": "DENY"
+        }
+      ],
+      "edits": [
+        {
+          "action": "REPLACE",
+          "addresses_clusters": [
+            "K1"
+          ],
+          "clause_id": "2.1",
+          "edit_id": "E1",
+          "new_text": "Customers may return items within 30 days. No exceptions.",
+          "rationale": "Clarified 2.1"
+        },
+        {
+          "action": "REPLACE",
+          "addresses_clusters": [
+            "K2"
+          ],
+          "clause_id": "3.1",
+          "edit_id": "E2",
+          "new_text": "Items purchased between November 15 and December 24 may be returned until January 31, unless final sale.",
+          "rationale": "Clarified 3.1"
+        },
+        {
+          "action": "REPLACE",
+          "addresses_clusters": [
+            "K3"
+          ],
+          "clause_id": "5.1",
+          "edit_id": "E3",
+          "new_text": "Items marked Final Sale cannot be returned.",
+          "rationale": "Clarified 5.1"
+        }
+      ],
+      "sibling_cases": [
+        {
+          "boundary_type": "control",
+          "case_id": "S01",
+          "narrative": "Sibling case narrative 1 which is also long enough.",
+          "target_clauses": [
+            "2.1"
+          ],
+          "title": "Sibling Case 1"
+        },
+        {
+          "boundary_type": "control",
+          "case_id": "S02",
+          "narrative": "Sibling case narrative 2 which is also long enough.",
+          "target_clauses": [
+            "2.1"
+          ],
+          "title": "Sibling Case 2"
+        },
+        {
+          "boundary_type": "control",
+          "case_id": "S03",
+          "narrative": "Sibling case narrative 3 which is also long enough.",
+          "target_clauses": [
+            "2.1"
+          ],
+          "title": "Sibling Case 3"
+        }
+      ],
+      "sibling_expected": {
+        "S01": "ALLOW",
+        "S02": "ALLOW",
+        "S03": "ALLOW"
+      }
+    }
+  }
+}

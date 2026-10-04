@@ -1,0 +1,27 @@
+NORTHWIND OUTFITTERS — RETURNS AND REFUNDS POLICY
+Version 1.0 (synthetic demo policy)
+
+1. Definitions
+1.1 "Customer" means the person who placed the order.
+1.2 "Delivery date" means the date the carrier marks the order as delivered.
+1.3 "Unused" means the item has not been worn, washed or used and still has its original tags attached.
+2. Eligibility
+2.1 Customers may return most items within 30 days of the delivery date for a refund to the original payment method.
+2.2 A return requires proof of purchase, such as an order number or receipt.
+2.3 Returned items must be unused and in their original packaging.
+3. Seasonal Extension
+3.1 Items purchased between November 15 and December 24 may be returned until January 31.
+4. Refund Approval
+4.1 Refunds of $200 or less may be approved by any support agent.
+4.2 Refunds over $200 require manager approval.
+5. Non-Returnable Items
+5.1 Items marked "Final Sale" at the time of purchase cannot be returned.
+5.2 Opened hygiene items, such as earbuds, razors and swimwear, cannot be returned.
+5.3 Gift cards are non-refundable.
+6. Shipping
+6.1 Customers pay return shipping unless the item arrived damaged or the wrong item was sent.
+6.2 Original shipping fees are not refunded.
+7. Defective Items
+7.1 Items that fail within 12 months of delivery because of a manufacturing defect are covered by warranty, and we will replace or repair them.
+8. Exceptions
+8.1 Support agents may make exceptions to this policy in unusual situations.
