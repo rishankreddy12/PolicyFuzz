@@ -203,9 +203,10 @@ def main():
     
     # Provider Selection
     with st.sidebar.expander("Provider & Model Configuration", expanded=False):
-        prov_list = ["gemini", "scripted", "openai", "ollama"]
+        prov_list = ["gemini", "nvidia", "scripted", "openai", "ollama"]
         format_names = {
             "gemini": "Gemini (Google AI — Cloud)",
+            "nvidia": "NVIDIA NIM (Cloud API)",
             "scripted": "Scripted (Offline Demo)",
             "openai": "OpenAI-Compatible (Local API)",
             "ollama": "Ollama (Local on 11434)"
@@ -217,13 +218,21 @@ def main():
             st.rerun()
             
         if selected_provider == "gemini":
-            model = settings.model_strong or "gemini-2.0-flash"
+            model = settings.model_strong or "gemini-3.5-flash"
             has_key = bool(settings.gemini_api_key)
             st.caption(f"Model: `{model}`")
             if has_key:
                 st.caption(f"API Key: `{settings.gemini_api_key[:8]}…` ✓")
             else:
                 st.warning("Set `GEMINI_API_KEY` in `.env` to use Gemini.")
+        elif selected_provider == "nvidia":
+            model = settings.model_strong or "meta/llama-3.2-11b-vision-instruct"
+            has_key = bool(settings.nvidia_api_key)
+            st.caption(f"Model: `{model}`")
+            if has_key:
+                st.caption(f"API Key: `{settings.nvidia_api_key[:8]}…` ✓")
+            else:
+                st.warning("Set `NVIDIA_API_KEY` in `.env` to use NVIDIA NIM.")
         elif selected_provider == "scripted":
             st.caption("✓ Deterministic replay of verified persona interpretations. Zero network calls.")
         elif selected_provider == "openai":

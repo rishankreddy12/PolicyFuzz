@@ -37,6 +37,7 @@ class Settings:
     openai_host: str = ""
     openai_key: str = ""
     gemini_api_key: str = ""
+    nvidia_api_key: str = ""
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -56,6 +57,7 @@ class Settings:
             openai_host=os.getenv("OPENAI_HOST", "http://127.0.0.1:8317/v1"),
             openai_key=os.getenv("OPENAI_KEY", "123456"),
             gemini_api_key=os.getenv("GEMINI_API_KEY", ""),
+            nvidia_api_key=os.getenv("NVIDIA_API_KEY", ""),
             model_a=os.getenv("POLICYFUZZ_MODEL_A", "gemini-pro-agent"),
             model_b=os.getenv("POLICYFUZZ_MODEL_B", "gemini-pro-agent"),
             model_c=os.getenv("POLICYFUZZ_MODEL_C", "gemini-pro-agent"),
@@ -69,6 +71,13 @@ def make_provider(settings: Settings):
             api_key=settings.gemini_api_key,
             timeout=CALL_TIMEOUT_S,
             model=settings.model_strong or "gemini-3.5-flash"
+        )
+    elif settings.provider == "nvidia":
+        from policyfuzz.llm.nvidia_provider import NvidiaProvider
+        return NvidiaProvider(
+            api_key=settings.nvidia_api_key,
+            timeout=CALL_TIMEOUT_S,
+            model=settings.model_strong or "meta/llama-3.2-11b-vision-instruct"
         )
     elif settings.provider == "ollama":
         from policyfuzz.llm.ollama_provider import OllamaProvider
